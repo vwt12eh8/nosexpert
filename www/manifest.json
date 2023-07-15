@@ -1,14 +1,1 @@
-{
-	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
-	"name": "NosExpert",
-	"short_name": "NosExpert",
-	"start_url": ".",
-	"display": "standalone",
-	"description": "Nostrプロトコルのための上級者向けツール",
-	"icons": [
-		{
-			"src": "icon.png",
-			"sizes": "320x320"
-		}
-	]
-}
+{"$schema":"https://json.schemastore.org/web-manifest-combined.json","name":"NosExpert","short_name":"NosExpert","start_url":".","display":"standalone","description":"Nostrプロトコルのための上級者向けツール","icons":[{"src":"icon.png","sizes":"320x320"}]}
