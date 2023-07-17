@@ -34,7 +34,7 @@ function AppRoot() {
             {hash === "#nip-19" && <Nip19 />}
             {hash === "" && <Box component="main" margin={2} marginTop={10}>
                 <Alert severity="info">左のメニューから使用したい機能を選んでください</Alert>
-                <Typography display="flex" justifyContent="center" marginTop={5}>App Ver.0.0.3</Typography>
+                <Typography display="flex" justifyContent="center" marginTop={5}>Ver.0.1.0</Typography>
             </Box>}
         </Box>
         <Drawer variant="temporary" anchor="left" open={menuOpen} onClose={closeMenu}>
@@ -44,15 +44,6 @@ function AppRoot() {
             </List>
         </Drawer>
     </ThemeProvider>;
-}
-
-function getTabIndex(hash: string) {
-    switch (hash) {
-        case "#nip-19":
-            return hash.substring(1);
-        default:
-            return false;
-    }
 }
 
 const tabNames: Record<string, string | undefined> = {

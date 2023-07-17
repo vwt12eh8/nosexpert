@@ -1,4 +1,6 @@
 {
+    "name": "nosexpert",
+    "version": "0.1.0",
     "scripts": {
         "build": "webpack",
         "build-production": "webpack --mode=production --no-devtool",
